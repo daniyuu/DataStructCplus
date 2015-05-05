@@ -2,22 +2,14 @@
 
 /**
 * Construct the IntCell
-* Initial value is 0
-*/
-IntCell::IntCell()
-{
-	storedValue = 0;
-}
-
-/**
-* Construct the IntCell
 * Initial value is initialValue
 */
-IntCell::IntCell(int initialValue){
-	storedValue = initialValue;
-}
+// 默认参数
+// 初始化列表
+IntCell::IntCell(int initialValue = 0) :
+storedValue(initialValue){}
 
-int IntCell::read(){
+int IntCell::read() const{
 	return storedValue;
 }
 
