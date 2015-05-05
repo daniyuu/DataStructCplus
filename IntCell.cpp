@@ -6,9 +6,9 @@
 */
 // 默认参数
 // 初始化列表
-IntCell::IntCell(int initialValue = 0) :
-storedValue(initialValue){}
+IntCell::IntCell(int initialValue) : storedValue(initialValue){}
 
+//  ::作用于运算符
 int IntCell::read() const{
 	return storedValue;
 }
