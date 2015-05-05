@@ -33,3 +33,15 @@ void TestManage::testVector(){
 		cout << i << " " << squares[i] << endl;
 	}
 }
+
+void TestManage::testZhizhen(){
+	IntCell *m;
+
+	m = new IntCell(0);
+	// 通过指针访问对象的成员需要通过->操作符进行访问
+	m->write(5);
+	cout << "Cell contents: " << m->read() << endl;
+
+	delete m;
+	return;
+}

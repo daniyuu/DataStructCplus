@@ -5,6 +5,8 @@ using namespace std;
 int main(){
 	TestManage test;
 	//test.testIntCell();
-	test.testVector();
+	//test.testVector();
+	
+	test.testZhizhen();
 	system("pause");
 }

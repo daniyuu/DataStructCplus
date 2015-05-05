@@ -9,6 +9,7 @@ public:
 
 	void testIntCell();
 	void testVector();
+	void testZhizhen();
 };
 
 #endif
