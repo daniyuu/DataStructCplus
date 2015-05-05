@@ -4,5 +4,7 @@ using namespace std;
 
 int main(){
 	TestManage test;
-	test.testIntCell();
+	//test.testIntCell();
+	test.testVector();
+	system("pause");
 }
