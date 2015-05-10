@@ -5,6 +5,7 @@
 #include <string>
 
 #include "MemoryCell.h"
+#include "Employee.h"
 
 
 using namespace std;
@@ -68,3 +69,20 @@ void TestManage::testZhizhen(){
 //
 //	return;
 //}
+
+
+ostream & operator<< (ostream & out, const Employee & rhs){
+	rhs.print(out);
+	return out;
+}
+
+void TestManage::testEmployee(){
+	vector<Employee> v(3);
+
+	v[0].setValue("George Bush", 40000.00);
+	v[1].setValue("Bill Gates", 2000000000.00);
+	v[2].setValue("Dr. Phil", 13000000.00);
+
+	cout << v[1] << endl;
+
+}

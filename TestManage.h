@@ -12,6 +12,8 @@ public:
 	void testZhizhen();
 
 	void testTemplateClass();
+
+	void testEmployee();
 };
 
 #endif

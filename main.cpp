@@ -9,5 +9,6 @@ int main(){
 	
 	//test.testZhizhen();
 	//test.testTemplateClass();
+	test.testEmployee();
 	system("pause");
 }

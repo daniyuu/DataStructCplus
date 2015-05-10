@@ -78,11 +78,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Employee.h" />
     <ClInclude Include="IntCell.h" />
     <ClInclude Include="TestFunc.h" />
     <ClInclude Include="TestManage.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Employee.cpp" />
     <ClCompile Include="IntCell.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MemoryCell.h" />

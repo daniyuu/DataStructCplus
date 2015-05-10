@@ -30,6 +30,9 @@
     <ClInclude Include="TestManage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Header Files\chapter01</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -49,6 +52,9 @@
     </ClCompile>
     <ClCompile Include="MemoryCell.h">
       <Filter>Header Files\chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Source Files\chapter01</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
