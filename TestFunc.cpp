@@ -11,7 +11,13 @@ TestFunc::~TestFunc()
 {
 }
 
-const string & TestFunc::findMax(const vector<string> & arr){
+/**
+* Return the maximum item in array a
+* Assumes a.size()>0
+* Comparable objects must provide operator< and operator=
+*/
+template <typename Comparable>
+const Comparable & TestFunc::findMax(const vector<Comparable> & arr){
 
 	int maxIndex = 0;
 	for (int i = 1; i < arr.size(); ++i){

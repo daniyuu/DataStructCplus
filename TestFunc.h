@@ -8,6 +8,7 @@ class TestFunc
 public:
 	TestFunc();
 	~TestFunc();
-	const string & findMax(const vector<string> & arr);
+	template <typename Comparable>
+	const Comparable & findMax(const vector<Comparable> & arr);
 };
 

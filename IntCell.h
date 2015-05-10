@@ -13,14 +13,17 @@ public:
 	// 默认参数仅在接口中被定义，在实现中被忽略
 	explicit IntCell(int initialValue = 0);
 
+	IntCell(const IntCell & rhs);
+
 	// c++中每个成员函数都被标记为访问函数或者修改函数
 	// 所有的成员函数都是修改函数，要使得成员函数称为访问函数必须在参数类型列表结尾的圆括号后加上关键字const
 	int read() const;
 	void write(int x);
 	~IntCell();
+	const IntCell & operator=(const IntCell & rhs);
 
 private:
-	int storedValue;
+	int *storedValue;
 };
 
 #endif
