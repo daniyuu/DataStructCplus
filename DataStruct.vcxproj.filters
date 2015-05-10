@@ -13,19 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\chapter01">
+      <UniqueIdentifier>{23361fc8-f6c7-4dfc-8653-d667803e0f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chapter01">
+      <UniqueIdentifier>{ac2c641d-bb48-4211-b62f-f339a4a64919}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IntCell.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="TestManage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="IntCell.h">
+      <Filter>Header Files\chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="TestFunc.h">
+      <Filter>Header Files\chapter01</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="IntCell.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="TestManage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -34,6 +40,12 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntCell.cpp">
+      <Filter>Source Files\chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFunc.cpp">
+      <Filter>Source Files\chapter01</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
