@@ -85,6 +85,7 @@
   <ItemGroup>
     <ClCompile Include="IntCell.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MemoryCell.h" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="TestFunc.cpp" />
     <ClCompile Include="TestManage.cpp" />

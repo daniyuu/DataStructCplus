@@ -2,6 +2,10 @@
 #include "IntCell.h"
 #include <iostream>
 #include <vector>
+#include <string>
+
+#include "MemoryCell.h"
+
 
 using namespace std;
 
@@ -50,3 +54,17 @@ void TestManage::testZhizhen(){
 // 按值调用使用不被函数更改的小对象
 // 按常量引用调用适用于不被函数更改的大对象
 // 引址调用适用于所有可以被函数更改的对象
+
+
+//void TestManage::testTemplateClass(){
+//	MemoryCell<int> m1;
+//	MemoryCell<string> m2; ("Hello");
+//
+//	m1.write(37);
+//	m2.write(m2.read() + " world");
+//
+//	cout << m1.read() << endl;
+//	cout << m2.read() << endl;
+//
+//	return;
+//}

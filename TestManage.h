@@ -10,6 +10,8 @@ public:
 	void testIntCell();
 	void testVector();
 	void testZhizhen();
+
+	void testTemplateClass();
 };
 
 #endif

@@ -21,20 +21,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TestManage.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="IntCell.h">
       <Filter>Header Files\chapter01</Filter>
     </ClInclude>
     <ClInclude Include="TestFunc.h">
       <Filter>Header Files\chapter01</Filter>
     </ClInclude>
+    <ClInclude Include="TestManage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TestManage.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -46,6 +43,12 @@
     </ClCompile>
     <ClCompile Include="TestFunc.cpp">
       <Filter>Source Files\chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="TestManage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryCell.h">
+      <Filter>Header Files\chapter01</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

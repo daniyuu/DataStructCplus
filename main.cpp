@@ -7,6 +7,7 @@ int main(){
 	//test.testIntCell();
 	//test.testVector();
 	
-	test.testZhizhen();
+	//test.testZhizhen();
+	//test.testTemplateClass();
 	system("pause");
 }
