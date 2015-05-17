@@ -19,6 +19,12 @@
     <Filter Include="Source Files\chapter01">
       <UniqueIdentifier>{ac2c641d-bb48-4211-b62f-f339a4a64919}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\chapter03">
+      <UniqueIdentifier>{255cc136-054a-43fe-82af-7e7897f5664a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chapter03">
+      <UniqueIdentifier>{b788615a-6225-4df9-9d14-38476cda04c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntCell.h">
@@ -55,6 +61,9 @@
     </ClCompile>
     <ClCompile Include="Employee.cpp">
       <Filter>Source Files\chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files\chapter03</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
