@@ -65,5 +65,8 @@
     <ClCompile Include="Vector.cpp">
       <Filter>Source Files\chapter03</Filter>
     </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Source Files\chapter03</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
